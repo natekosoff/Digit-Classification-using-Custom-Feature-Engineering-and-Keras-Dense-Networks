@@ -1,0 +1,2 @@
+# Digit-Classification-using-Custom-Feature-Engineering-and-Keras-Dense-Networks
+Classified digits (0, 3, 8) using a neural network. Employed custom feature engineering, reducing 28x28 images to 4D vectors by averaging quadrant pixel intensities. Trained Keras Dense Networks, demonstrating improved performance with increased complexity. Showcases data preprocessing, feature extraction, and NN design.
