@@ -1,2 +1,7 @@
 # Digit-Classification-using-Custom-Feature-Engineering-and-Keras-Dense-Networks
 Classified digits (0, 3, 8) using a neural network. Employed custom feature engineering, reducing 28x28 images to 4D vectors by averaging quadrant pixel intensities. Trained Keras Dense Networks, demonstrating improved performance with increased complexity. Showcases data preprocessing, feature extraction, and NN design.
+Data Preparation: Loaded and preprocessed the MNIST dataset, filtering for target digits (0, 3, 8) and splitting into training, validation, and test sets.
+Feature Engineering: Implemented a custom feature extraction function to convert 28x28 pixel images into a 4-dimensional feature vector by averaging pixel intensities across four quadrants of each image.
+Model Development: Constructed multiple Keras Sequential models (Dense Neural Networks) with varying architectures, including different numbers of hidden layers and units (e.g., 16, 64, 128 units) and tanh activation functions, culminating in a softmax output layer for multi-class classification.
+Training & Evaluation: Trained models using the SGD optimizer with categorical_crossentropy loss over 30 epochs. Monitored training and validation loss/accuracy, and visualized loss trends.
+Performance Analysis: Compared models with varying complexities, observing that increasing the number of layers and nodes led to improved training and validation performance (lower loss and higher accuracy) on the filtered MNIST subset.
